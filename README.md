@@ -11,9 +11,9 @@ A rebuild of the serverless website WildRydes Workshop in Vue.js with AWS Amplif
  ## Day 0: Escolha do Projeto
 **Trilha escolhida:** [Crie uma aplicação Web sem servidor](https://aws.amazon.com/pt/getting-started/hands-on/build-serverless-web-app-lambda-apigateway-s3-dynamodb-cognito/)
 
-Nas minhas experiências recentes, tenho com frequência desenvolvido e participado de projetos me voltando ao front-end. Soma-se a isso o fato de que nunca tive um contato direto com os recursos da AWS.
+Nas minhas experiências recentes, tenho com frequência participado de projetos atuando no front-end. Soma isso ao fato de que nunca tive um contato direto com os recursos da AWS, e chego à escolha do projeto.
 
-Como se trata de uma vaga para full stack, entendi que percorrer esse tutorial seria uma boa forma de desenvolver outros conceitos e habilidade, e me preparar para a oportunidade de uma forma mais completa. 
+Como se trata de uma vaga para full stack, entendi que percorrer esse tutorial seria uma ótima forma de desenvolver outros conceitos e habilidade, e me preparar para a oportunidade de uma forma mais completa. 
 
 Atualmente, trabalho como desenvolvedor front-end, utilizando principalmente as tecnologias React e React Native.
 
@@ -52,7 +52,7 @@ Mensagens de erro no terminal, que diz que eu não tenho as credenciais.
 ## Day 2: Gerenciamento de Usuários
 Serviço utilizado: Amazon Cognito
 
-Novamente, enfrentei alguns problemas co o tutorial original aqui. Por isso, acabei de guiando principalmente pela outra versão que encontrei.
+Novamente, aqui enfrentei alguns problemas com algumas instruções do tutorial original. Por isso, acabei me guiando à partir daqui principalmente pela outra versão do tutorial que encontrei.
 
 Tive que instalar o CLI da AWS
 
@@ -60,7 +60,7 @@ Tive que instalar o CLI da AWS
 1. Configurando o ambiente CLI do ampify no meu terminal
 ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/3745c91b-919e-45d0-a670-1529bb020eb8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20210518/us-west-2/s3/aws4_request&X-Amz-Date=20210518T215412Z&X-Amz-Expires=86400&X-Amz-Signature=b048a3ef6b6d0530441766d948b3ddd78a2e4d86e83bd0d694e363a18ab0ed3d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
 
-2. Teste do processo se Cadastro no Site
+2. Teste do processo de Cadastro no Site
 ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/651e9dec-7b3d-4da1-adbf-a464444ba122/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20210518/us-west-2/s3/aws4_request&X-Amz-Date=20210518T215428Z&X-Amz-Expires=86400&X-Amz-Signature=592210544ae621d46b6d770412c021175d1afe30f67d95dbf667ae34aa66652d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
 
 3. Página Login Feito com Sucesso
@@ -68,7 +68,7 @@ Tive que instalar o CLI da AWS
 
 ## Day 3: Serveless Backend
 
-À partir dessa etapa, todo o processo se deu de forma bem tranquila. A maior parte do trabalho foi feita no ambiente da AWS, acessando a página dos produtos e os configurando. 
+A partir dessa etapa, todo o processo se deu de forma bem tranquila. A maior parte do trabalho foi feita no ambiente da AWS, acessando a página dos produtos e os configurando. 
 
 Nessa etapa, utilizei as ferramentas AWS Lambda e Amazon DynamoDB para configurar o ambiente de Backend Serveless da aplicação.
 
@@ -89,7 +89,7 @@ Primeiro, foi configurada uma nova tabela no DynamoDB para armazenar as corridas
 
 ## Day 4: Restful API
 
-Por fim, o tutorial me levou a criação de uma Restful API que permita realizar as requisiçoes da aplicação (no caso, o pedido de carona de um unicórnio). A ferramenta utilizada o Amazon API Gateway Console
+Por fim, o tutorial me levou a criação de uma Restful API que permita realizar as requisiçoes da aplicação (no caso, o pedido de carona de um unicórnio). A ferramenta utilizada foi o Amazon API Gateway Console
 
 Essa parte em específica achei extremamente interessante. Ao fim de um bootcamp que recentemente terminei pela Ironhack, havia desenvolvido uma aplicação de e-commerce fullstack, em que desenvolvi uma Rest API utilizando NodeJS, Express e MongoDB. Utilizar o serviço da AWS me impressionou muito, tanto pela nova forma de se realizar quanto pela incrível facilidade do processo. 
 
@@ -100,7 +100,7 @@ A tela para fazer o "pedido" da carona pode ser acessada através desse [link](h
 1. Criação de uma API Restful
 ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2beaa529-c9e0-4fb1-aeb7-55e1f8089eb0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20210518/us-west-2/s3/aws4_request&X-Amz-Date=20210518T215702Z&X-Amz-Expires=86400&X-Amz-Signature=2135bf9adeb1a9c98cf7189ca8ae92849ffc11eab2058ab69aa52f3f15219534&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
 
-2. Mesagem de sucesso do tedte de Integração da API Recém criada com o App
+2. Mesagem de sucesso do teste de Integração da API recém-criada com o App
 ![enter image description here](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/786c553f-4cca-4702-b750-860f8def8787/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5/20210518/us-west-2/s3/aws4_request&X-Amz-Date=20210518T215647Z&X-Amz-Expires=86400&X-Amz-Signature=e038aeadb8d4aeb0502e5da0b916920ea80f2057e3637925c588d89a5c996536&X-Amz-SignedHeaders=host&response-content-disposition=filename%20=%22Untitled.png%22)
 
 3. Execução da Aplicação: Clicar em algum lugar do mapa e pedir um unicórnio com sucesso
