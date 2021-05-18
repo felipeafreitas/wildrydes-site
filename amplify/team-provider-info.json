@@ -1,2 +1,20 @@
-
-{}
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-wildrydes-prod-124146-authRole",
+      "UnauthRoleArn": "arn:aws:iam::217036508449:role/amplify-wildrydes-prod-124146-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::217036508449:role/amplify-wildrydes-prod-124146-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-wildrydes-prod-124146-deployment",
+      "UnauthRoleName": "amplify-wildrydes-prod-124146-unauthRole",
+      "StackName": "amplify-wildrydes-prod-124146",
+      "StackId": "arn:aws:cloudformation:us-east-1:217036508449:stack/amplify-wildrydes-prod-124146/8f9c8b40-b7ef-11eb-a2d9-125dcdb1e0b5",
+      "AmplifyAppId": "d2g9q3un10amqa"
+    },
+    "categories": {
+      "auth": {
+        "wildrydes12f59509": {}
+      }
+    }
+  }
+}
