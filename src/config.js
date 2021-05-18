@@ -8,6 +8,6 @@ module.exports = {
   },
 
   api: {
-    invokeUrl: "", // e.g. https://rc2345678345.execute-api.us-west-2.amazonaws.com/prod,
+    invokeUrl: "https://qxxj1ir7p6.execute-api.us-east-2.amazonaws.com/prod", // e.g. https://rc2345678345.execute-api.us-west-2.amazonaws.com/prod,
   },
 };
